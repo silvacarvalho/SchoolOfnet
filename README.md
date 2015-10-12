@@ -3,9 +3,9 @@
 #### Primeiros passos.
 
 > Criando um arquivo!
->>    - Usei o comando: <code>vim inicio.txt</code> para criar e editar o arquivo.  
->>    - Adicionei o arquivo ao git com o comando: <code>git add inicio.txt</code>.  
->>    - Fiz enviei para o repositório com o comando: <code>git commit -m "Mensagem aqui."</code>.  
+>>    - Usei o comando: **vim inicio.txt** para criar e editar o arquivo.  
+>>    - Adicionei o arquivo ao git com o comando: **git add inicio.txt**.  
+>>    - Fiz enviei para o repositório com o comando: **git commit -m "Mensagem aqui."**.  
 
 <li>Brincando com os <code>BRANCH's</code></li>
     - Primeiro: Criei um novo branch.<br/>
