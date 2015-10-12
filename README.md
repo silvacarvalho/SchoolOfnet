@@ -13,9 +13,9 @@
     - Terceiro: Fiz o commit do arquivo para o branch.  
     - Quarto: Fiz o merge dos arquivos do branch com o branch **master**, e removi do repositório e da minha máquina local o branch teste.  
 > Criando uma **TAG** para versão do repositório  
-    - Esta TAG **0.1.0** foi criada para atualizar o arquivo **README.md**.
+>>    - Esta TAG **0.1.0** foi criada para atualizar o arquivo **README.md**.
 > Criando uma nova **TAG**  
-    - Esta nova TAG **0.1.1**  foi criada apenas para representar com precisão o que foi feito no ítem anterior.  
+>>    - Esta nova TAG **0.1.1**  foi criada apenas para representar com precisão o que foi feito no ítem anterior.  
     Com isso a alteração do repositório será feita, porém, não implicará na funcionalidade do sistema.
 <hr>
 
