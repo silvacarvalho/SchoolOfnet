@@ -2,7 +2,7 @@
 
 #### Primeiros passos.
 
-1. Criando um arquivo!
+> Criando um arquivo!
 >>    - Usei o comando: <code>vim inicio.txt</code> para criar e editar o arquivo.  
 >>    - Adicionei o arquivo ao git com o comando: <code>git add inicio.txt</code>.  
 >>    - Fiz enviei para o repositório com o comando: <code>git commit -m "Mensagem aqui."</code>.  
