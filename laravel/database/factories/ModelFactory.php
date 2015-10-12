@@ -19,3 +19,14 @@ $factory->define(CodeProject\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
+
+$factory->define(CodeProject\Cliente::class, function (Faker\Generator $faker) {
+    return [
+        'nome' => $faker->name,
+        'responsavel' => $faker->name,
+        'email' => $faker->email,
+        'phone' => $faker->phoneNumber,
+        'endereco' => $faker->address,
+        'obs' => $faker->sentence()
+    ];
+});
