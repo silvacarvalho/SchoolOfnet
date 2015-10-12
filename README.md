@@ -27,7 +27,9 @@
 
 > **Problemas** ainda em curso no momento.
 >> Ainda estou com problemas quando vou usar a classe **Cliente** por exemplo, não consigo apenas com o código seguinte: ```php Cliente::method ```.  
-   Sempre preciso colocar por exemplo ```php \CodeProject\Cliente::find($id)->delete();```.
+   Sempre preciso colocar por exemplo ```php \CodeProject\Cliente::find($id)->delete();```.  
+
+> **###Comandos** importantes e sua utilização.  
 
 
 ```js  
