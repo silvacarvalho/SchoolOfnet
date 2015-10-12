@@ -30,7 +30,10 @@
    Sempre preciso colocar por exemplo ```php \CodeProject\Cliente::find($id)->delete();```.  
 
 > ##### **Comandos** importantes e sua utilização.  
-
+>> **PHP artisan **.
+  
+>>> Comando **MAKE**.  
+>>>> php artisan 
 
 ```js  
 function testando(){
