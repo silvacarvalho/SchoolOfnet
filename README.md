@@ -33,7 +33,8 @@
 >> **PHP artisan**.
   
 >>> Comando **MAKE**.  
->>>> ```php artisan make:seed```
+>>>> ```php artisan make:model Cliente -m``` Este comando criará um model do tipo cliente, e ainda cria um arquivo de migração que fica na pasta ```database\migrations```.  
+        Nesse arquivo, é possível adicionar no método ```run```, todos os atributos da tabela da base de dados definindo até sua tipagem de dados.
 
 ```js  
 function testando(){
