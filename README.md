@@ -52,10 +52,7 @@ protected $fillable = [
 
 >>>>  Também ter configurado o arquivo:  
 
-```php  
-    database\factories\ModelFactory.php
-```
-adicionando as seguintes informações.
+>>>>  ```database\factories\ModelFactory.php```, adicionando as seguintes informações.
 ```php  
 $factory->define(CodeProject\Cliente::class, function (Faker\Generator $faker) {
     return [
