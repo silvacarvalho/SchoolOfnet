@@ -33,7 +33,7 @@
 >> **PHP artisan**.
   
 >>> Comando **MAKE**.  
->>>> ```php php artisan make:seed```
+>>>> ```php artisan make:seed```
 
 ```js  
 function testando(){
