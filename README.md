@@ -47,9 +47,10 @@ protected $fillable = [
                         'valor1',
                         'valor2',
                         'valor3'
-];```  
+];
+```  
 
->>>> Também ter configurado o arquivo:  
+>>>>  Também ter configurado o arquivo:  
 
 ```php  
     database\factories\ModelFactory.php
