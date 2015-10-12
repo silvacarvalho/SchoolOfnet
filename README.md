@@ -1,12 +1,12 @@
 ### Documentando meu sistema.
 
-<hr>
-<strong>Descrevendo os recursos usados para este projeto.</strong>
-<ul>
-<li>Criando um arquivo!</li>
-    - Usei o comando: <code>vim inicio.txt</code> para criar e editar o arquivo.<br/>
-    - Adicionei o arquivo ao git com o comando: <code>git add inicio.txt</code><br/>
-    - Fiz enviei para o repositório com o comando: <code>git commit -m "Mensagem aqui."</code><br/>
+#### Primeiros passos.
+
+> Criando um arquivo!
+>>    - Usei o comando: <code>vim inicio.txt</code> para criar e editar o arquivo.  
+>>    - Adicionei o arquivo ao git com o comando: <code>git add inicio.txt</code>.  
+>>    - Fiz enviei para o repositório com o comando: <code>git commit -m "Mensagem aqui."</code>.  
+
 <li>Brincando com os <code>BRANCH's</code></li>
     - Primeiro: Criei um novo branch.<br/>
     - Segundo: Criei um arquivo neste branch.<br/>
@@ -17,7 +17,6 @@
 <li>Criando uma nova >TAG  </li>
     - Esta nova TAG ** 0.1.1 **  foi criada apenas para representar com precisão o que foi feito no ítem anterior.
     Com isso a alteração do repositório será feita, porém, não implicará na funcionalidade do sistema.
-</ul>
 <hr>
 
 > #### Registrando algumas informações importantes.
