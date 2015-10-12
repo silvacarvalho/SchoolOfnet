@@ -20,9 +20,7 @@
 >>  - Esta nova TAG **0.1.1**  foi criada apenas para representar com precisão o que foi feito no ítem anterior.  
     Com isso a alteração do repositório será feita, porém, não implicará na funcionalidade do sistema.  
 
-<hr>
-
-> #### Registrando algumas informações importantes.
+#### Registrando algumas informações importantes.
 
 ```js  
 function testando(){
