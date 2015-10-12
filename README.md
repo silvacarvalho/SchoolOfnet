@@ -18,3 +18,8 @@
     - Esta nova TAG <code>0.1.1</code> foi criada apenas para representar com precisão o que foi feito no ítem anterior.
     Com isso a alteração do repositório será feita, porém, não implicará na funcionalidade do sistema.
 </ul>
+<hr>
+
+> #### Registrando algumas informações importantes.
+> 
+>     Aqui vai códigos
