@@ -23,5 +23,10 @@
 <hr>
 
 > #### Registrando algumas informações importantes.
-> 
->     Aqui vai códigos
+
+```js  
+function testando(){
+ alert("Testando");
+}
+
+```
