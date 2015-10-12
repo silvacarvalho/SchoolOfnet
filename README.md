@@ -48,6 +48,7 @@ protected $fillable = [
                         'valor2',
                         'valor3'
 ];```  
+
 Também ter configurado o arquivo:  
 
 ```php  
