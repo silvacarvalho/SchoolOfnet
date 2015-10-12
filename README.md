@@ -26,7 +26,8 @@
 >> Obtive alguns problemas por não me atentar para as versões do PHP que estava incompatível com a nova versão do Laravel "5.1".  
 
 > **Problemas** ainda em curso no momento.
->> Ainda estou com problemas quando vou usar a classe **Cliente** por exemplo, não consigo apenas com o código seguinte: ```php Cliente::class ```.  
+>> Ainda estou com problemas quando vou usar a classe **Cliente** por exemplo, não consigo apenas com o código seguinte: ```php Cliente::method ```.  
+   Sempre preciso colocar por exemplo ```php \CodeProject\Cliente::find($id)->delete();```.
 
 
 ```js  
