@@ -48,7 +48,7 @@ protected $fillable = [
                         'valor2',
                         'valor3'
 ];  
-```  
+```
      Também ter configurado o arquivo:  
 
 >>>>  ```database\factories\ModelFactory.php```, adicionando as seguintes informações.
