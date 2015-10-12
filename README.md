@@ -13,6 +13,7 @@
     - Terceiro: Fiz o commit do arquivo para o branch.<br/>
     - Quarto: Fiz o merge dos arquivos do branch com o branch <code>master</code>, e removi do repositório e da minha máquina local o branch teste
 <li>Criando uma <code>TAG</code> para versão do repositório</li>
-    - Esta TAG <code>0.1.1</code> foi criada para atualizar o arquivo <code>README.md</code>.
+    - Esta TAG <code>0.1.0</code> foi criada para atualizar o arquivo <code>README.md</code>.
     Com isso a alteração do repositório será feita, porém, não implicará na funcionalidade do sistema.
+<li>Criando uma <code>TAG</code></li>
 </ul>
