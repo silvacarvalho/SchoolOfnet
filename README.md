@@ -40,7 +40,7 @@ factory ('CodeProject\Cliente')->make();
 ```
 Será gerado uma instancia 
      do model **Cliente** e logo em seguida já cria um objeto com os campos da tabela totalmente preenchidos, estes dados são fakes.  
-     **OBS**: Para que isso funcione perfeitamente, já deve-se ter configurado previamente o model **Cliente** 
+>>>> **OBS**: Para que isso funcione perfeitamente, já deve-se ter configurado previamente o model **Cliente** 
      adicionando as propriedades da tabela:  
 ```php  
 protected $fillable = [ 
