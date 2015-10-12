@@ -37,7 +37,17 @@
 >>>> Dentro do console **TINKER**, quando rodar o comando: ```factory ('CodeProject\Cliente')->make();``` será gerado uma instancia 
      do model **Cliente** e logo em seguida já cria um objeto com os campos da tabela totalmente preenchidos, estes dados são fakes.  
      **OBS**: Para que isso funcione perfeitamente, já deve-se ter configurado previamente o model **Cliente** 
-     adicionando as propriedades da tabela: ```protected $fillable = ['valor1','valor2','valor3'];```
+     adicionando as propriedades da tabela: ```protected $fillable = ['valor1','valor2','valor3'];```, bem como ter configurado o arquivo: 
+     ```database\factories\ModelFactory.php``` adicionando as seguintes informações.
+     ```php  
+        $factory->define(CodeProject\Cliente::class, function (Faker\Generator $faker) {
+            return [
+                'valor1' => $faker->name,
+                'valor2' => $faker->name,
+                'valor3' => $faker->sentence()
+            ];
+        });
+     ```
 
   
 >>> Comando **MAKE**.  
