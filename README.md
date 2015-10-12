@@ -23,7 +23,7 @@
 #### Registrando algumas informações importantes.
 
 > **Problemas** Laravel vs PHP.
->> Obtive alguns problemas por não me atentar para as versões do PHP que estava incompatível com a nova versão do Laravel.  
+>> Obtive alguns problemas por não me atentar para as versões do PHP que estava incompatível com a nova versão do Laravel "5.1".  
 
 
 ```js  
