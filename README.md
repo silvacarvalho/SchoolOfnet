@@ -37,12 +37,12 @@
 >>>> Dentro do console **TINKER**, quando rodar o comando: ```factory ('CodeProject\Cliente')->make();``` será gerado uma instancia 
      do model **Cliente** e logo em seguida já cria um objeto com os campos da tabela totalmente preenchidos, estes dados são fakes.
      **OBS**: Para que isso funcione perfeitamente, já deve-se ter configurado previamente o model **Cliente** 
-     adicionando as propriedades da tabela: ```php 
-                                                    protected $fillable = [
-                                                       'valor1',
-                                                       'valor2',
-                                                       'valor3'
-                                                   ];```
+     adicionando as propriedades da tabela:
+```protected $fillable = [
+'valor1',
+'valor2',
+'valor3'
+];```
 
   
 >>> Comando **MAKE**.  
