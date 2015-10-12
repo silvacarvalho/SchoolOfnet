@@ -39,7 +39,7 @@
 factory ('CodeProject\Cliente')->make();
 ```
 Será gerado uma instancia 
-     do model **Cliente** e logo em seguida já cria um objeto com os campos da tabela totalmente preenchidos, estes dados são fakes.  
+     do model **Cliente** e logo em seguida já cria um objeto com os campos da tabela totalmente preenchidos, estes dados são fakes e não serão inseridos na base de dados. Para inserir os dados na base de dados só precisa trocar os o método **```fake()```** por **```create()```**  
     
 >>>> **OBS**: Para que isso funcione perfeitamente, já deve-se ter configurado previamente o model **Cliente** 
      adicionando as propriedades da tabela:  
