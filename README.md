@@ -1,4 +1,4 @@
-<h3>Meu projeto com a academia de ensino SchoolofNet.</h3>
+### Meu projeto com a academia de ensino SchoolofNet.
 
 <hr>
 <strong>Descrevendo os recursos usados para este projeto.</strong>
@@ -15,7 +15,7 @@
 <li>Criando uma <code>TAG</code> para versão do repositório</li>
     - Esta TAG <code>0.1.0</code> foi criada para atualizar o arquivo <code>README.md</code>.
 <li>Criando uma nova >TAG  </li>
-    - Esta nova TAG **0.1.1**  foi criada apenas para representar com precisão o que foi feito no ítem anterior.
+    - Esta nova TAG ** 0.1.1 **  foi criada apenas para representar com precisão o que foi feito no ítem anterior.
     Com isso a alteração do repositório será feita, porém, não implicará na funcionalidade do sistema.
 </ul>
 <hr>
