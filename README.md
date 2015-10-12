@@ -50,7 +50,7 @@ protected $fillable = [
 ];
 ```  
 
->>>>  Também ter configurado o arquivo:  
+      Também ter configurado o arquivo:  
 
 >>>>  ```database\factories\ModelFactory.php```, adicionando as seguintes informações.
 ```php  
