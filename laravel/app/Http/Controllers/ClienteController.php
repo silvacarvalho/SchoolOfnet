@@ -47,7 +47,7 @@ class ClienteController extends Controller
      */
     public function show($id)
     {
-        //
+        return \CodeProject\Cliente::findOrNew($id);
     }
 
     /**
@@ -70,7 +70,7 @@ class ClienteController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        
     }
 
     /**
@@ -81,6 +81,6 @@ class ClienteController extends Controller
      */
     public function destroy($id)
     {
-        //
+        \CodeProject\Cliente::find($id)->delete();
     }
 }
