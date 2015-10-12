@@ -1,4 +1,4 @@
-### Meu projeto com a academia de ensino SchoolofNet.
+### Documentando meu sistema.
 
 <hr>
 <strong>Descrevendo os recursos usados para este projeto.</strong>
