@@ -71,7 +71,18 @@ class ClienteController extends Controller
      */
     public function update(Request $request, $id)
     {
-        return $name;
+        $nome           = $request->nome;
+        $responsavel    = $request->responsavel;
+        $email          = $request->email;
+        $phone          = $request->phone;
+        $endereco       = $request->endereco;
+        $obs            = $request->obs;
+        return Cli::where('id', $id)->update([  'nome'         => $nome,
+                                                'responsavel'  => $responsavel,
+                                                'email'        => $email,
+                                                'phone'        => $phone,
+                                                'endereco'     => $endereco,
+                                                'obs'          => $obs]);
     }
 
     /**
