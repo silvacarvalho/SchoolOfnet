@@ -11,7 +11,7 @@
 |
 */
 
-$factory->define(CodeProject\User::class, function (Faker\Generator $faker) {
+$factory->define(CodeProject\Models\User::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->name,
         'email' => $faker->email,
@@ -20,7 +20,7 @@ $factory->define(CodeProject\User::class, function (Faker\Generator $faker) {
     ];
 });
 
-$factory->define(CodeProject\Cliente::class, function (Faker\Generator $faker) {
+$factory->define(CodeProject\Models\Cliente::class, function (Faker\Generator $faker) {
     return [
         'nome' => $faker->name,
         'responsavel' => $faker->name,
