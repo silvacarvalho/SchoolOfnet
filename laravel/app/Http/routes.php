@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('cliente', 'ClienteController@index');
-Route::post('cliente', 'ClienteController@store');
-Route::get('cliente/{id}', 'ClienteController@show');
-Route::delete('cliente/{id}', 'ClienteController@destroy');
-Route::post('cliente/{id}', 'ClienteController@update');
+Route::get('cliente', 'ClienteController@index'); //Resgata todos os registros em formato Json.
+Route::post('cliente', 'ClienteController@store'); //Cria Registro do Form enviado por Post.
+Route::get('cliente/{id}', 'ClienteController@show'); //Resgata um registro específico em formato Json.
+Route::delete('cliente/{id}', 'ClienteController@destroy'); //Destroi um registro específo.
+Route::post('cliente/{id}', 'ClienteController@update'); //Atualiza um registro específo.
