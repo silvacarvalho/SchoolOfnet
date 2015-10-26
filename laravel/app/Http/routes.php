@@ -19,4 +19,4 @@ Route::get('cliente', 'ClienteController@index'); //Resgata todos os registros e
 Route::post('cliente', 'ClienteController@store'); //Cria Registro do Form enviado por Post.
 Route::get('cliente/{id}', 'ClienteController@show'); //Resgata um registro específico em formato Json.
 Route::delete('cliente/{id}', 'ClienteController@destroy'); //Destroi um registro específo.
-Route::post('cliente/{id}', 'ClienteController@update'); //Atualiza um registro específo.
+Route::put('cliente/{id}', 'ClienteController@update'); //Atualiza um registro específo.
